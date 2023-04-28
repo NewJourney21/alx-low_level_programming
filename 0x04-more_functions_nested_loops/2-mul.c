@@ -1,10 +1,13 @@
-sdigit - checks for a digit (0 through 9)
- * @c: int to be checked
- * Return: 1 if c is a digit, 0 otherwise
+#include "main.h"
+/**
+ * mul - checks for checks for a digit (0 through 9).
+ * @a: a - Variable
+ * @b: b - variable
+ * Return: Always 0.
  */
-int _isdigit(int c)
+int mul(int a, int b)
 {
- return (c >= '0' && c <= '9');
+	int mul;
+ mul = a * b;
+ return (mul);
 }
-
-
