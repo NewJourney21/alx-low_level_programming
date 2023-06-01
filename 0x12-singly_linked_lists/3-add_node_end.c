@@ -28,7 +28,7 @@ if (new_node->str == NULL)
 free(new_node);
 return (NULL);
 }
-i
+
 new_node->len = strlen(str);
 
 new_node->next = NULL;
@@ -44,7 +44,7 @@ temp = *head;
 while (temp->next != NULL)
 temp = temp->next;
 
-temp->next = new_node;
+temp->next = (new_node);
 }
 
 return (new_node);
